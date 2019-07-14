@@ -1,0 +1,25 @@
+{
+  "name": "avenger-vote",
+  "version": "1.0.0",
+  "description": "Simple Express application to vote on your favorite Avenger",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchillard/avenger-vote.git"
+  },
+  "author": "RCH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchillard/avenger-vote/issues"
+  },
+  "homepage": "https://github.com/rchillard/avenger-vote#readme"
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Avenger Vote</title>
   </head>
   <body>
@@ -18,5 +19,31 @@
         <input type="submit" name="avenger-vote" value="Cast Your Vote">
       </fieldset>
     </form>
+    <h2>Rankings</h2>
+    <div id="ranking">
+      <table>
+        <thead>
+          <tr>
+            <td>Superhero</td>
+            <td># of Votes</td>
+          </tr>
+        </thead>
+        <tbody>
+          <% avengers.forEach(function(avenger) { %>
+            <tr>
+              <td><%= avenger.name %></td>
+              <td><%= avenger.votes %></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+    <!-- <ol>
+    <% avengers.forEach(function(avenger) { %>
+      <li>
+        <%= avenger.name %> , <%= avenger.votes %>
+      </li>
+    <% }) %>
+    </ol> -->
   </body>
 </html>
