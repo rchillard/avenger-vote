@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Avenger Vote</title>
+  </head>
+  <body>
+    <h1>Vote for your favorite Avenger</h1>
+    <form action="/vote" method="POST">
+      <fieldset>
+        <legend>Avengers</legend>
+        <p>Choose your favorite superhero:</p>
+        <label><input type="radio" name="avengervote" value="Iron Man">Iron Man</label>
+        <label><input type="radio" name="avengervote" value="Thor">Thor</label>
+        <label><input type="radio" name="avengervote" value="Black Widow">Black Widow</label>
+        <label><input type="radio" name="avengervote" value="Hulk">Hulk</label>
+        <label><input type="radio" name="avengervote" value="Captain America">Captain America</label>
+        <label><input type="radio" name="avengervote" value="Black Panther">Black Panther</label>
+        <input type="submit" name="avenger-vote" value="Cast Your Vote">
+      </fieldset>
+    </form>
+  </body>
+</html>
