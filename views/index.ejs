@@ -8,15 +8,29 @@
   <body>
     <h1>Vote for your favorite Avenger</h1>
     <form action="/vote" method="POST">
-      <fieldset class="container">
+      <fieldset>
         <legend>Avengers</legend> 
         <p>Choose your favorite superhero:</p>
-        <label class="item"><img src="iron-man.jpg" alt="Iron Man" width="10%"><br /><input type="radio" name="avengervote" value="Iron Man">Iron Man</label>
-        <label class="item"><img src="thor.jpeg" alt="Thor" width="10%"><br /><input type="radio" name="avengervote" value="Thor">Thor</label>
-        <label class="item"><img src="black-widow.jpeg" alt="Black Widow" width="10%"><br /><input type="radio" name="avengervote" value="Black Widow">Black Widow</label>
-        <label class="item"><img src="hulk.jpeg" alt="hulk" width="10%"><br /><input type="radio" name="avengervote" value="Hulk">Hulk</label>
-        <label class="item"><img src="captain-america.jpeg" alt="Captain America" width="10%"><br /><input type="radio" name="avengervote" value="Captain America">Captain America</label>
-        <label class="item"><img src="black-panther.jpeg" alt="Black Panther" width="10%"><br /><input type="radio" name="avengervote" value="Black Panther">Black Panther</label>
+        <div class="container">
+          <div class="item">
+            <label class="item"><img src="iron-man.jpeg" alt="Iron Man"><br /><input type="radio" name="avengervote" value="Iron Man">Iron Man</label>
+          </div>
+          <div class="item">
+            <label class="item"><img src="thor.jpeg" alt="Thor"><br /><input type="radio" name="avengervote" value="Thor">Thor</label>
+          </div>
+          <div class="item">
+            <label class="item"><img src="black-widow.jpeg" alt="Black Widow"><br /><input type="radio" name="avengervote" value="Black Widow">Black Widow</label>
+          </div>
+          <div class="item">
+            <label class="item"><img src="hulk.jpeg" alt="hulk"><br /><input type="radio" name="avengervote" value="Hulk">Hulk</label>
+          </div>
+          <div class="item">
+            <label class="item"><img src="captain-america.jpeg" alt="Captain America"><br /><input type="radio" name="avengervote" value="Captain America">Captain America</label>
+          </div>
+          <div class="item">
+            <label class="item"><img src="black-panther.jpeg" alt="Black Panther"><br /><input type="radio" name="avengervote" value="Black Panther">Black Panther</label>
+          </div>
+        </div>
         <input type="submit" name="avenger-vote" value="Cast Your Vote">
       </fieldset>
     </form>

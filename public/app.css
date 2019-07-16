@@ -1,24 +1,28 @@
 body {
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; 
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin: 2em auto 0 auto;
   width: 80%;
 }
 
+img {
+  height: 150px;
+  width: 100px;
+}
+
 .container {
-  align-content: flex-start;
-  align-items: flex-start;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 0 auto 1em auto;
+  width: 90%;
 }
 
 .item {
-  /* flex: 0 15%; */
-  /* padding: 5px; */
-  align-self: auto;
+  margin: 5px;
+  padding: 5px;
   text-align: center;
+  height: 15%;
+  width: 20%;
 }
 
 input[type="submit"] {
@@ -26,6 +30,7 @@ input[type="submit"] {
   color: whitesmoke;
   font-size: 1em;
   padding: .5em 1em .5em 1em;
+  width: 100%;
 }
 
 table {
