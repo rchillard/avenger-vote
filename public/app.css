@@ -5,6 +5,22 @@ body {
   width: 80%;
 }
 
+.container {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.item {
+  /* flex: 0 15%; */
+  /* padding: 5px; */
+  align-self: auto;
+  text-align: center;
+}
+
 input[type="submit"] {
   background-color: rgb(76, 86, 106);
   color: whitesmoke;
