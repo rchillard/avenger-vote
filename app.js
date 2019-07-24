@@ -36,7 +36,7 @@ app.post("/vote", function(request, response) {
 });
 
 // START SERVER
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 
 app.listen(PORT, function() {
   console.log("Avenger-vote Server has started on port " + PORT);
