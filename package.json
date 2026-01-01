@@ -4,9 +4,9 @@
   "description": "Simple Express application to vote on your favorite Avenger",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "body-parser": "^1.20.4",
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.22.1"
   },
   "devDependencies": {},
   "scripts": {
